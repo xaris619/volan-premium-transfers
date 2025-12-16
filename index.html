@@ -11,19 +11,17 @@
     name="description"
     content="Volan Premium Transfers offers reliable minibus transportation across Cyprus – airport pickups, hotel transfers, private tours and corporate travel with 24/7 availability and easy WhatsApp booking."
   />
+  <!-- Combined keywords (EN + multilingual) -->
   <meta
     name="keywords"
-    content="Cyprus airport transfer, Larnaca airport transfer, Paphos airport transfer, minibus Cyprus, private tours Cyprus, taxi Cyprus, airport taxi Cyprus, Volan Premium Transfers"
+    content="Cyprus airport transfer, Larnaca airport transfer, Paphos airport transfer, minibus Cyprus, private tours Cyprus, taxi Cyprus, airport taxi Cyprus, Volan Premium Transfers,
+    Flughafentransfer Zypern, Transfer Larnaka Ayia Napa minibus,
+    Transfert aéroport Chypre minibus, transfert privé Chypre,
+    Трансфер Кипр Ларнака Аэропорт, трансфер минибус Айя-Напа Протарас,
+    הסעות מיניבוס קפריסין, הסעות שדה תעופה לרנקה פאפוס,
+    transfer lotniskowy Cypr, przewozy Cypr minibus,
+    transfer aeroporto Cipro minibus, transport aeroport Cipru"
   />
-  <!-- Multilingual SEO keywords for international tourists -->
-<meta name="keywords" content="
-  Flughafentransfer Zypern, Transfer Larnaka Ayia Napa minibus,
-  Transfert aéroport Chypre minibus, transfert privé Chypre,
-  Трансфер Кипр Ларнака Аэропорт, трансфер минибус Айя-Напа Протарас,
-  הסעות מיניבוס קפריסין, הסעות שדה תעופה לרנקה פאפוס,
-  transfer lotniskowy Cypr, przewozy Cypr minibus,
-  transfer aeroporto Cipro minibus, transport aeroport Cipru
-">
   <meta name="author" content="Volan Premium Transfers" />
 
   <!-- Canonical URL -->
@@ -39,12 +37,11 @@
   <meta property="og:url" content="https://volanpremiumtransfers.com/" />
   <!-- OG image -->
   <meta property="og:image" content="https://volanpremiumtransfers.com/og-image.jpeg" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-<meta name="twitter:image" content="https://volanpremiumtransfers.com/og-image.jpeg" />
-
+  <meta name="twitter:image" content="https://volanpremiumtransfers.com/og-image.jpeg" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -92,8 +89,13 @@
     }
   </script>
 
-    <!-- TailwindCSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Performance optimizations -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com" defer></script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-36GFT8VNKB"></script>
@@ -101,68 +103,66 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-36GFT8VNKB');
   </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much is a transfer from Larnaca Airport to Ayia Napa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Minibus transfers generally start from €XX depending on group size and luggage. Contact us for an exact quote on WhatsApp at +357 99 335570."
+  <!-- FAQ Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is a transfer from Larnaca Airport to Ayia Napa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prices depend on group size, date, time and luggage needs. Send us your details on WhatsApp and we will confirm the exact price for your transfer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide child seats?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, baby and child seats are available upon request at no extra charge for airport transfers and private tours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long is the transfer from Larnaca to Protaras?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The transfer from Larnaca Airport to Protaras usually takes around 45–55 minutes depending on traffic and the exact hotel location."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer minibus and bus transfers for big groups?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer private minibuses for 1–14 passengers and full-size buses for 15–55 passengers, ideal for weddings, events, conferences and large family groups."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you operate 24/7?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Volan Premium Transfers operates 24/7 for all airport transfers, hotel pickups and private tours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I book a transfer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Booking is instant via WhatsApp at +357 99 335570. Send your flight details, pickup location and destination and we will confirm your transfer."
+        }
       }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide child seats?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, baby and child seats are available upon request at no extra charge for airport transfers and private tours."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long is the transfer from Larnaca to Protaras?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The transfer from Larnaca Airport to Protaras usually takes around 45–55 minutes depending on traffic."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer minibus and bus transfers for big groups?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we offer private minibuses for 1–14 passengers and full-size buses for 15–55 passengers, ideal for weddings, events, conferences and large family groups."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you operate 24/7?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Volan Premium Transfers operates 24/7 for all airport transfers, hotel pickups and private tours."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I book a transfer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Booking is instant via WhatsApp at +357 99 335570. Send your flight details, pickup location and destination and we will confirm your transfer."
-      }
-    }
-  ]
-}
-</script>
-
-  
+    ]
+  }
+  </script>
 </head>
 
 <body class="bg-white text-slate-900">
@@ -179,6 +179,7 @@
         <a href="#home" class="text-slate-700 hover:text-slate-900">Home</a>
         <a href="#about" class="text-slate-700 hover:text-slate-900">About</a>
         <a href="#services" class="text-slate-700 hover:text-slate-900">Services</a>
+        <a href="#areas" class="text-slate-700 hover:text-slate-900">Areas</a>
         <a href="#contact" class="text-slate-700 hover:text-slate-900">Contact</a>
         <a href="https://wa.me/35799335570" target="_blank"
            class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-semibold shadow-sm border text-white"
@@ -197,18 +198,18 @@
           <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
             Seamless Premium Minibus Transfers in Cyprus
           </h1>
-        
+
           <p class="mt-4 text-slate-600 text-lg">
-  Reliable, comfortable, and on time — 
-  <a href="#areas" class="underline underline-offset-2">
-    airport transfers and hotel pickups in Cyprus
-  </a>, 
-  corporate travel, and 
-  <a href="#services" class="underline underline-offset-2">
-    private tours by minibus and bus
-  </a>.
-  Book instantly on WhatsApp.
-</p>
+            Reliable, comfortable, and on time —
+            <a href="#areas" class="underline underline-offset-2">
+              airport transfers and hotel pickups in Cyprus
+            </a>,
+            corporate travel, and
+            <a href="#services" class="underline underline-offset-2">
+              private tours by minibus and bus
+            </a>.
+            Book instantly on WhatsApp.
+          </p>
 
           <div class="mt-6 flex flex-wrap gap-3">
             <a href="#contact"
@@ -255,18 +256,18 @@
       <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">About Us</h2>
-         <p class="mt-4 text-slate-700">
-  At Volan Premium Transfers, we pride ourselves on safe, punctual, and comfortable journeys across Cyprus.
-  Whether it's an 
-  <a href="#areas" class="underline underline-offset-2">
-    airport transfer from Larnaca or Paphos
-  </a> 
-  or a 
-  <a href="#services" class="underline underline-offset-2">
-    private tour around Cyprus by minibus or bus
-  </a>, 
-  you'll enjoy professional service and clear communication.
-</p>
+          <p class="mt-4 text-slate-700">
+            At Volan Premium Transfers, we pride ourselves on safe, punctual, and comfortable journeys across Cyprus.
+            Whether it's an
+            <a href="#areas" class="underline underline-offset-2">
+              airport transfer from Larnaca or Paphos
+            </a>
+            or a
+            <a href="#services" class="underline underline-offset-2">
+              private tour around Cyprus by minibus or bus
+            </a>,
+            you'll enjoy professional service and clear communication.
+          </p>
 
           <ul class="mt-6 space-y-2 text-slate-700 text-sm">
             <li>Professional, English &amp; Greek speaking</li>
@@ -289,14 +290,13 @@
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="rounded-2xl border border-slate-200 hover:shadow-lg transition-shadow bg-white p-6">
             <h3 class="font-semibold mb-2">Airport Transfers</h3>
-           <p class="text-slate-600 text-sm">
-  Stress-free pickups &amp; drop-offs for Larnaca and Paphos airports. 
-  See the full list of 
-  <a href="#areas" class="underline underline-offset-2">
-    airport &amp; area transfers in Cyprus
-  </a>.
-</p>
-
+            <p class="text-slate-600 text-sm">
+              Stress-free pickups &amp; drop-offs for Larnaca and Paphos airports.
+              See the full list of
+              <a href="#areas" class="underline underline-offset-2">
+                airport &amp; area transfers in Cyprus
+              </a>.
+            </p>
           </div>
           <div class="rounded-2xl border border-slate-200 hover:shadow-lg transition-shadow bg-white p-6">
             <h3 class="font-semibold mb-2">Corporate Travel</h3>
@@ -373,148 +373,145 @@
       </div>
     </section>
   </main>
-  <section id="seo-content" class="py-16 bg-white">
-  <div class="max-w-5xl mx-auto px-4 text-slate-800 text-sm leading-relaxed">
 
-    <h2 class="text-2xl font-bold mb-4">Cyprus Airport Transfers, Minibus & Bus Services</h2>
-    <p class="mb-3">
-      Volan Premium Transfers provides professional <strong>airport transfers in Cyprus</strong> with
-      <strong>private minibuses</strong> and <strong>luxury buses</strong> for families, groups, wedding parties,
-      corporate travel, hotels and Airbnb guests. We operate 24/7 and cover all major destinations across the island.
-    </p>
+  <!-- MAIN SEO CONTENT – now correctly mapped to #areas -->
+  <section id="areas" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4 text-slate-800 text-sm leading-relaxed">
 
-    <h3 class="text-xl font-semibold mt-6 mb-2">Larnaca Airport Transfers</h3>
-    <p class="mb-3">
-      Private transfers from <strong>Larnaca Airport (LCA)</strong> to Ayia Napa, Protaras, Larnaca city, Nicosia and Limassol.
-      We offer <strong>minibus transfers for 4–14 passengers</strong> and <strong>bus transfers for larger groups</strong>.
-      Flight tracking included, meet-and-greet at arrivals, child seats available.
-    </p>
+      <h2 class="text-2xl font-bold mb-4">Cyprus Airport Transfers, Minibus &amp; Bus Services</h2>
+      <p class="mb-3">
+        Volan Premium Transfers provides professional <strong>airport transfers in Cyprus</strong> with
+        <strong>private minibuses</strong> and <strong>luxury buses</strong> for families, groups, wedding parties,
+        corporate travel, hotels and Airbnb guests. We operate 24/7 and cover all major destinations across the island.
+      </p>
 
-    <h3 class="text-xl font-semibold mt-6 mb-2">Paphos Airport Transfers</h3>
-    <p class="mb-3">
-      Reliable minibus and bus transfers from <strong>Paphos Airport (PFO)</strong> to Paphos resorts, Coral Bay,
-      Limassol, Episkopi, Zygi and Nicosia. Ideal for holiday groups, family vacations, and business travel.
-    </p>
+      <h3 class="text-xl font-semibold mt-6 mb-2">Larnaca Airport Transfers</h3>
+      <p class="mb-3">
+        Private transfers from <strong>Larnaca Airport (LCA)</strong> to Ayia Napa, Protaras, Larnaca city, Nicosia and Limassol.
+        We offer <strong>minibus transfers for 4–14 passengers</strong> and <strong>bus transfers for larger groups</strong>.
+        Flight tracking included, meet-and-greet at arrivals, child seats available.
+      </p>
 
-    <h3 class="text-xl font-semibold mt-6 mb-2">Ayia Napa & Protaras Transfers</h3>
-    <p class="mb-3">
-      Transfers between <strong>Larnaca Airport and Ayia Napa / Protaras</strong> are among our most requested routes.
-      We offer comfortable minibuses and full-size buses for parties, stag/hen groups, families and weddings.
-    </p>
+      <h3 class="text-xl font-semibold mt-6 mb-2">Paphos Airport Transfers</h3>
+      <p class="mb-3">
+        Reliable minibus and bus transfers from <strong>Paphos Airport (PFO)</strong> to Paphos resorts, Coral Bay,
+        Limassol, Episkopi, Zygi and Nicosia. Ideal for holiday groups, family vacations, and business travel.
+      </p>
 
-    <h3 class="text-xl font-semibold mt-6 mb-2">Limassol Transfers</h3>
-    <p class="mb-3">
-      Safe and comfortable <strong>minibus and bus transfers to Limassol</strong> from both airports. Perfect for cruise passengers,
-      hotels, conferences and corporate travellers.
-    </p>
+      <h3 class="text-xl font-semibold mt-6 mb-2">Ayia Napa &amp; Protaras Transfers</h3>
+      <p class="mb-3">
+        Transfers between <strong>Larnaca Airport and Ayia Napa / Protaras</strong> are among our most requested routes.
+        We offer comfortable minibuses and full-size buses for parties, stag/hen groups, families and weddings.
+      </p>
 
-    <h3 class="text-xl font-semibold mt-6 mb-2">Private Minibus Tours in Cyprus</h3>
-    <p class="mb-3">
-      We also offer <strong>private tours</strong> with minibus or bus:
-      Troodos Mountains, wineries, villages, beaches, Lefkara, Cape Greco, Akamas and more.
-      Custom itineraries available with experienced drivers.
-    </p>
+      <h3 class="text-xl font-semibold mt-6 mb-2">Limassol Transfers</h3>
+      <p class="mb-3">
+        Safe and comfortable <strong>minibus and bus transfers to Limassol</strong> from both airports. Perfect for cruise passengers,
+        hotels, conferences and corporate travellers.
+      </p>
 
-    <h3 class="text-xl font-semibold mt-6 mb-2">Group Transfers & Bus Hire</h3>
-    <p class="mb-3">
-      For larger groups, events or corporate travel, we provide <strong>bus hire services</strong> with drivers.
-      Ideal for weddings, sports teams, conferences, schools and company events.
-    </p>
+      <h3 class="text-xl font-semibold mt-6 mb-2">Private Minibus Tours in Cyprus</h3>
+      <p class="mb-3">
+        We also offer <strong>private tours</strong> with minibus or bus:
+        Troodos Mountains, wineries, villages, beaches, Lefkara, Cape Greco, Akamas and more.
+        Custom itineraries available with experienced drivers.
+      </p>
 
-    <h3 class="text-xl font-semibold mt-6 mb-2">Why Choose Our Minibus & Bus Transfers</h3>
-    <ul class="list-disc ml-5 mb-3">
-      <li>24/7 availability for all airport routes</li>
-      <li>Private minibus transfers for 1–14 passengers</li>
-      <li>Private bus transfers for 15–55 passengers</li>
-      <li>Meet & greet at Larnaca and Paphos airports</li>
-      <li>Child/baby seats upon request</li>
-      <li>Professional English & Greek-speaking drivers</li>
-      <li>Clean, comfortable and modern vehicles</li>
-      <li>Perfect for families, groups and corporate travel</li>
-    </ul>
+      <h3 class="text-xl font-semibold mt-6 mb-2">Group Transfers &amp; Bus Hire</h3>
+      <p class="mb-3">
+        For larger groups, events or corporate travel, we provide <strong>bus hire services</strong> with drivers.
+        Ideal for weddings, sports teams, conferences, schools and company events.
+      </p>
 
-  </div>
-</section>
-<section id="faq" class="py-16 bg-white">
-  <div class="max-w-5xl mx-auto px-4 text-slate-800 text-sm leading-relaxed">
+      <h3 class="text-xl font-semibold mt-6 mb-2">Why Choose Our Minibus &amp; Bus Transfers</h3>
+      <ul class="list-disc ml-5 mb-3">
+        <li>24/7 availability for all airport routes</li>
+        <li>Private minibus transfers for 1–14 passengers</li>
+        <li>Private bus transfers for 15–55 passengers</li>
+        <li>Meet &amp; greet at Larnaca and Paphos airports</li>
+        <li>Child/baby seats upon request</li>
+        <li>Professional English &amp; Greek-speaking drivers</li>
+        <li>Clean, comfortable and modern vehicles</li>
+        <li>Perfect for families, groups and corporate travel</li>
+      </ul>
 
-    <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
+    </div>
+  </section>
 
-    <h3 class="text-lg font-semibold mt-4">How much is a transfer from Larnaca Airport to Ayia Napa?</h3>
-    <p class="mb-3">
-      Prices depend on group size, date, time and luggage needs.
-      Send us your details on WhatsApp and we will confirm the exact price.
-      You can also see our main routes in the
-      <a href="#areas" class="underline underline-offset-2">airport &amp; area transfers section</a>.
-    </p>
+  <section id="faq" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4 text-slate-800 text-sm leading-relaxed">
 
-    <h3 class="text-lg font-semibold mt-4">Do you provide child seats?</h3>
-    <p class="mb-3">
-      Yes — baby and child seats are available upon request at no extra charge.
-    </p>
+      <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
 
-    <h3 class="text-lg font-semibold mt-4">How long is the transfer from Larnaca to Protaras?</h3>
-    <p class="mb-3">
-      The journey usually takes around 45–55 minutes depending on traffic and the exact hotel location.
-      For more information on routes from Larnaca and Paphos, visit our
-      <a href="#areas" class="underline underline-offset-2">airport &amp; area transfers section</a>.
-    </p>
+      <h3 class="text-lg font-semibold mt-4">How much is a transfer from Larnaca Airport to Ayia Napa?</h3>
+      <p class="mb-3">
+        Prices depend on group size, date, time and luggage needs.
+        Send us your details on WhatsApp and we will confirm the exact price.
+        You can also see our main routes in the
+        <a href="#areas" class="underline underline-offset-2">airport &amp; area transfers section</a>.
+      </p>
 
-    <h3 class="text-lg font-semibold mt-4">Do you offer minibus and bus transfers for big groups?</h3>
-    <p class="mb-3">
-      Yes — we offer private minibuses for 1–14 passengers and full-size buses for up to 55 passengers.
-      Perfect for weddings, events, conferences and large family groups.
-      Check our main <a href="#services" class="underline underline-offset-2">services section</a> for details.
-    </p>
+      <h3 class="text-lg font-semibold mt-4">Do you provide child seats?</h3>
+      <p class="mb-3">
+        Yes — baby and child seats are available upon request at no extra charge.
+      </p>
 
-    <h3 class="text-lg font-semibold mt-4">Do you operate 24/7?</h3>
-    <p class="mb-3">
-      Yes, Volan Premium Transfers operates day and night for all airport transfers and private hire bookings.
-    </p>
+      <h3 class="text-lg font-semibold mt-4">How long is the transfer from Larnaca to Protaras?</h3>
+      <p class="mb-3">
+        The journey usually takes around 45–55 minutes depending on traffic and the exact hotel location.
+        For more information on routes from Larnaca and Paphos, visit our
+        <a href="#areas" class="underline underline-offset-2">airport &amp; area transfers section</a>.
+      </p>
 
-    <h3 class="text-lg font-semibold mt-4">How can I book?</h3>
-    <p class="mb-3">
-      The fastest way is to send us a message on WhatsApp at <strong>+357 99 335570</strong> with your
-      flight number, arrival time, pickup and destination. We will reply with confirmation and price.
-      You can also use the form in the <a href="#contact" class="underline underline-offset-2">contact section</a>.
-    </p>
+      <h3 class="text-lg font-semibold mt-4">Do you offer minibus and bus transfers for big groups?</h3>
+      <p class="mb-3">
+        Yes — we offer private minibuses for 1–14 passengers and full-size buses for up to 55 passengers.
+        Perfect for weddings, events, conferences and large family groups.
+        Check our main <a href="#services" class="underline underline-offset-2">services section</a> for details.
+      </p>
 
-  </div>
-</section>
+      <h3 class="text-lg font-semibold mt-4">Do you operate 24/7?</h3>
+      <p class="mb-3">
+        Yes, Volan Premium Transfers operates day and night for all airport transfers and private hire bookings.
+      </p>
 
+      <h3 class="text-lg font-semibold mt-4">How can I book?</h3>
+      <p class="mb-3">
+        The fastest way is to send us a message on WhatsApp at <strong>+357 99 335570</strong> with your
+        flight number, arrival time, pickup and destination. We will reply with confirmation and price.
+        You can also use the form in the <a href="#contact" class="underline underline-offset-2">contact section</a>.
+      </p>
 
+    </div>
+  </section>
+
+  <!-- Hidden multilingual SEO sections -->
   <section id="multilingual-seo" class="py-4 bg-white text-[0px] leading-[0px]">
-  <!-- German -->
-  <h2 lang="de">Flughafentransfer Zypern Minibus und Busservice Larnaka Paphos Ayia Napa Protaras</h2>
-
-  <!-- French -->
-  <h2 lang="fr">Transfert aéroport Chypre en minibus et bus privé Larnaca Paphos Ayia Napa Protaras</h2>
-
-  <!-- Russian -->
-  <h2 lang="ru">Трансфер на Кипре: минибус и автобус из аэропорта Ларнака Пафос Айя-Напа Протарас</h2>
-
-  <!-- Hebrew -->
-  <h2 lang="he">הסעות מיניבוס ואוטובוס בקפריסין משדה התעופה לרנקה פאפוס איה נאפה פרוטארס</h2>
-
-  <!-- Polish -->
-  <h2 lang="pl">Transfer lotniskowy Cypr minibusem i autobusem z Larnaki Pafos Ayia Napa Protaras</h2>
-
-  <!-- Italian -->
-  <h2 lang="it">Transfer aeroportuale Cipro con minibus e autobus Larnaca Paphos Ayia Napa Protaras</h2>
-
-  <!-- Romanian -->
-  <h2 lang="ro">Transfer aeroport Cipru cu minibuz și autobuz Larnaca Paphos Ayia Napa Protaras</h2>
-</section>
+    <!-- German -->
+    <h2 lang="de">Flughafentransfer Zypern Minibus und Busservice Larnaka Paphos Ayia Napa Protaras</h2>
+    <!-- French -->
+    <h2 lang="fr">Transfert aéroport Chypre en minibus et bus privé Larnaca Paphos Ayia Napa Protaras</h2>
+    <!-- Russian -->
+    <h2 lang="ru">Трансфер на Кипре: минибус и автобус из аэропорта Ларнака Пафос Айя-Напа Протарас</h2>
+    <!-- Hebrew -->
+    <h2 lang="he">הסעות מיניבוס ואוטובוס בקפריסין משדה התעופה לרנקה פאפוס איה נאפה פרוטארס</h2>
+    <!-- Polish -->
+    <h2 lang="pl">Transfer lotniskowy Cypr minibusem i autobusem z Larnaki Pafos Ayia Napa Protaras</h2>
+    <!-- Italian -->
+    <h2 lang="it">Transfer aeroportuale Cipro con minibus e autobus Larnaca Paphos Ayia Napa Protaras</h2>
+    <!-- Romanian -->
+    <h2 lang="ro">Transfer aeroport Cipru cu minibuz și autobuz Larnaca Paphos Ayia Napa Protaras</h2>
+  </section>
 
   <section id="intl-seo" class="py-4 bg-white text-[0px] leading-[0px]">
-  <h2 lang="de">Flughafentransfer Larnaka Ayia Napa Protaras Limassol Zypern Minibus Bus</h2>
-  <h2 lang="fr">Transfert aéroport Larnaca Paphos Ayia Napa Protaras Chypre minibus bus privé</h2>
-  <h2 lang="ru">Трансфер Ларнака Пафос Айя-Напа Протарас Кипр минибус автобус</h2>
-  <h2 lang="he">הסעות שדה תעופה לרנקה פאפוס איה נאפה פרוטארס מיניבוס אוטובוס קפריסין</h2>
-  <h2 lang="pl">Transfer lotnisko Larnaka Pafos Ayia Napa Protaras Limassol Cypr minibus autobus</h2>
-  <h2 lang="it">Transfer aeroporto Larnaca Paphos Ayia Napa Protaras Cipro minibus autobus</h2>
-  <h2 lang="ro">Transfer aeroport Larnaca Paphos Ayia Napa Protaras Cipru minibuz autobuz</h2>
-</section>
+    <h2 lang="de">Flughafentransfer Larnaka Ayia Napa Protaras Limassol Zypern Minibus Bus</h2>
+    <h2 lang="fr">Transfert aéroport Larnaca Paphos Ayia Napa Protaras Chypre minibus bus privé</h2>
+    <h2 lang="ru">Трансфер Ларнака Пафос Айя-Напа Протарас Кипр минибус автобус</h2>
+    <h2 lang="he">הסעות שדה תעופה לרנקה פאפוס איה נאפה פרוטארס מיניבוס אוטובוס קפריסין</h2>
+    <h2 lang="pl">Transfer lotnisko Larnaka Pafos Ayia Napa Protaras Limassol Cypr minibus autobus</h2>
+    <h2 lang="it">Transfer aeroporto Larnaca Paphos Ayia Napa Protaras Cipro minibus autobus</h2>
+    <h2 lang="ro">Transfer aeroport Larnaca Paphos Ayia Napa Protaras Cipru minibuz autobuz</h2>
+  </section>
 
   <footer class="py-10 border-t bg-white">
     <div class="mx-auto max-w-6xl px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
