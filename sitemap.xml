@@ -1,40 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://volanpremiumtransfers.com/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://volanpremiumtransfers.com/#home</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://volanpremiumtransfers.com/#about</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://volanpremiumtransfers.com/#services</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://volanpremiumtransfers.com/#contact</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://volanpremiumtransfers.com/#seo-content</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://volanpremiumtransfers.com/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://volanpremiumtransfers.com/larnaca-airport-transfers/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://volanpremiumtransfers.com/paphos-airport-transfers/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://volanpremiumtransfers.com/ayia-napa-protaras-transfers/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://volanpremiumtransfers.com/limassol-transfers/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://volanpremiumtransfers.com/private-tours-cyprus/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://volanpremiumtransfers.com/group-bus-hire-cyprus/</loc><lastmod>2026-11-20</lastmod></url>
 </urlset>
