@@ -108,7 +108,6 @@ p{margin:0 0 1em}
 .trust strong{display:block;color:var(--navy);font-size:.98rem}
 .trust .ico{width:44px;height:44px;border-radius:12px;background:var(--bg-3);display:grid;place-items:center;color:var(--navy);flex:none}
 @media (max-width:820px){.trust ul{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:420px){.trust ul{grid-template-columns:1fr}}
 
 /* Sections */
 .section{padding:88px 0}
@@ -245,3 +244,25 @@ td a{font-weight:600}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .fleet-card .ph{aspect-ratio:960/317;background:linear-gradient(135deg,var(--navy),var(--navy-3));display:grid;place-items:center;color:var(--gold-2)}
 .fleet-card .ph .icon{width:72px;height:72px;stroke-width:1.2}
+
+/* ---- Fixes after phone review ---- */
+/* Eyebrow labels: sit on their own line with space before the heading */
+.eyebrow{display:flex;width:fit-content;margin-bottom:14px;font-size:.82rem}
+.center .eyebrow,.section-head.center .eyebrow{margin-left:auto;margin-right:auto}
+/* Hero ticks: even grid so every tick lines up */
+.hero-points{display:grid;grid-template-columns:repeat(4,max-content);gap:10px 26px}
+/* Phones: show the minibus photo in full above the text instead of a zoomed, darkened background */
+@media (max-width:720px){
+  .hero::after{display:none}
+  .hero picture{position:relative;display:block;inset:auto;z-index:auto}
+  .hero .hero-img{position:static;height:auto;aspect-ratio:2/1;object-position:68% 50%}
+  .hero-inner{padding:32px 0 44px}
+  .hero-points{grid-template-columns:repeat(2,max-content);gap:12px 22px}
+}
+/* Phones: compact trust bar (2 x 2, no icons) */
+@media (max-width:560px){
+  .trust ul{grid-template-columns:repeat(2,1fr);gap:16px 14px;padding:20px 0}
+  .trust .ico{display:none}
+  .trust li{font-size:.85rem;line-height:1.4}
+}
+@media (min-width:721px){.hero-inner{padding:64px 0 60px}.hero .hero-img{object-position:75% 50%}}
