@@ -97,7 +97,7 @@ def header(path):
     return f'''<header class="site-header">
  <div class="wrap nav">
   <a class="brand" href="/">
-   <picture><source srcset="/assets/img/logo-96.webp" type="image/webp"><img src="/assets/img/logo-96.png" width="44" height="44" alt=""></picture>
+   <img src="/assets/img/brand-96.png" srcset="/assets/img/brand-96.png 1x, /assets/img/brand-192.png 2x" width="44" height="44" alt="">
    <span><b>Volan</b><small>Premium Transfers</small></span>
   </a>
   <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false" aria-label="Open menu">{ic("menu")}</button>
@@ -150,7 +150,7 @@ def footer():
  <div class="wrap">
   <div class="foot-grid">
    <div>
-    <a class="brand" href="/"><picture><source srcset="/assets/img/logo-96.webp" type="image/webp"><img src="/assets/img/logo-96.png" width="44" height="44" alt="" loading="lazy"></picture><span><b>Volan</b><small>Premium Transfers</small></span></a>
+    <a class="brand" href="/"><img src="/assets/img/brand-96.png" srcset="/assets/img/brand-96.png 1x, /assets/img/brand-192.png 2x" width="44" height="44" alt="" loading="lazy"><span><b>Volan</b><small>Premium Transfers</small></span></a>
     <p>Private airport transfers, minibus and bus hire with professional drivers across Cyprus. Available 24/7.</p>
     <p>Looking for everyday transfers and group minibuses? Visit our sister company <a href="https://volanminibus.com/">Volan Minibus</a>.</p>
    </div>
@@ -218,7 +218,7 @@ BUSINESS = {
   {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "Volan Premium Transfers", "inLanguage": "en", "publisher": {"@id": BIZ_ID}},
   {"@type": "LocalBusiness", "@id": BIZ_ID, "name": "Volan Premium Transfers", "alternateName": "Volan Minibus",
    "description": "Private airport transfers, minibus and bus hire with professional drivers across Cyprus. Larnaca and Paphos airport pickups, hotel transfers, private tours and group transport, 24/7.",
-   "url": SITE + "/", "logo": SITE + "/assets/img/logo-512.png",
+   "url": SITE + "/", "logo": SITE + "/assets/img/brand-512.png",
    "image": [SITE + "/assets/img/van-coast-1536.jpg", SITE + "/assets/img/og-image.jpg"],
    "telephone": PHONE, "email": EMAIL, "priceRange": "€€", "currenciesAccepted": "EUR",
    "address": {"@type": "PostalAddress", "addressCountry": "CY"},

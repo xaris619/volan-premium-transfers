@@ -54,7 +54,7 @@ p{margin:0 0 1em}
 .site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy)}
-.brand img{width:44px;height:44px;border-radius:12px}
+.brand img{width:44px;height:44px;border-radius:50%}
 .brand b{display:block;font-family:var(--serif);font-size:1.35rem;line-height:1}
 .brand small{display:block;font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:4px}
 .menu{display:flex;align-items:center;gap:26px}
