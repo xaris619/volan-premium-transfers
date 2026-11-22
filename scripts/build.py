@@ -152,6 +152,7 @@ def footer():
    <div>
     <a class="brand" href="/"><picture><source srcset="/assets/img/logo-96.webp" type="image/webp"><img src="/assets/img/logo-96.png" width="44" height="44" alt="" loading="lazy"></picture><span><b>Volan</b><small>Premium Transfers</small></span></a>
     <p>Private airport transfers, minibus and bus hire with professional drivers across Cyprus. Available 24/7.</p>
+    <p>Looking for everyday transfers and group minibuses? Visit our sister company <a href="https://volanminibus.com/">Volan Minibus</a>.</p>
    </div>
    <div><h2>Transfers</h2><ul>{pages}</ul></div>
    <div><h2>Company</h2><ul><li><a href="/#about">About us</a></li><li><a href="/#fleet">Our vehicles</a></li><li><a href="/#routes">Routes &amp; journey times</a></li><li><a href="/#faq">FAQ</a></li><li><a href="/#quote">Get a quote</a></li></ul></div>

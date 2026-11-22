@@ -39,7 +39,7 @@
 
 ## Done outside the site
 - **Google Search Console:** property `https://volanpremiumtransfers.com/` verified via GA4 (G-36GFT8VNKB). Sitemap submitted. Indexing requested for all 7 pages.
-  - Only the homepage was indexed at the time. GSC also still showed an old cached sitemap, but the live sitemap has all 7 URLs.
+  - At first only the homepage was indexed. By 22 Nov 2026 a Google `site:` search showed **all 7 pages indexed**.
 - **Bing Webmaster Tools:** owner signed in with Google. The GSC import failed once, then the owner reports it done. Check that volanpremiumtransfers.com and its sitemap are listed.
 
 ## Open / next steps
@@ -48,7 +48,7 @@
    - VIP extras (refreshments, Wi-Fi, suit-wearing driver, extra waiting time…)
    - Target customers (business, luxury hotels and villas, weddings, yacht/jet clients…)
    - Whether Volan Minibus has a Google Business Profile
-   - Whether the two sites should link to each other
+   - ~~Whether the two sites should link to each other~~ Done: footer link Premium → volanminibus.com ("sister company"). The owner is still deciding on a link from volanminibus.com → Premium, probably after the VIP rewrite.
 
    Then rewrite the copy, titles and schema so the two sites target different searches and contain no duplicate text.
 2. Review **volanminibus.com**, to compare it with this site and check it has its own sitemap in GSC and Bing.
