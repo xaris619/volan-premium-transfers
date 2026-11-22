@@ -18,6 +18,34 @@
   var y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();
 
+  // Source tagging: both Volan websites share the same WhatsApp number and
+  // email, so every WhatsApp chat and email from this site is pre-filled
+  // with "Volan Premium Transfers" to show where the enquiry came from.
+  var SITE = 'Volan Premium Transfers';
+  var PAGES = {
+    '/': 'Home',
+    '/larnaca-airport-transfers/': 'Larnaca Airport Transfers',
+    '/paphos-airport-transfers/': 'Paphos Airport Transfers',
+    '/limassol-transfers/': 'Limassol Transfers',
+    '/ayia-napa-protaras-transfers/': 'Ayia Napa & Protaras Transfers',
+    '/group-bus-hire-cyprus/': 'Group Bus Hire',
+    '/private-tours-cyprus/': 'Private Tours'
+  };
+  var path = location.pathname.replace(/index\.html$/, '');
+  if (path.slice(-1) !== '/') path += '/';
+  var pageName = PAGES[path] || '';
+  var waText = 'Hello ' + SITE + '! I would like a quote.';
+  var mailSubject = 'Quote request - ' + SITE + (pageName ? ' (' + pageName + ')' : '');
+  var links = document.querySelectorAll('a[href]');
+  for (var i = 0; i < links.length; i++) {
+    var href = links[i].getAttribute('href');
+    if (/^https:\/\/wa\.me\/\d+\/?$/.test(href)) {
+      links[i].setAttribute('href', href.replace(/\/$/, '') + '?text=' + encodeURIComponent(waText));
+    } else if (/^mailto:[^?]+$/.test(href)) {
+      links[i].setAttribute('href', href + '?subject=' + encodeURIComponent(mailSubject));
+    }
+  }
+
   // Analytics helper (GA4)
   function track(name, params) {
     if (typeof window.gtag === 'function') window.gtag('event', name, params || {});

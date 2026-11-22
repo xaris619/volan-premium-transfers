@@ -5,7 +5,7 @@
   - **volanminibus.com**: older main brand for everyday transfers. Hosted on Hostinger and built by the owner. Performs well, including in ChatGPT. **Do not combine it with this site or redirect it.**
   - **volanpremiumtransfers.com** (this repo): VIP brand with luxury minibuses and top-tier drivers. Hosted on **Vercel** (auto-deploys from `main` on GitHub `xaris619/volan-premium-transfers`).
 - Phone/WhatsApp +357 99 335570 · email info@volanminibus.com · 24/7 · Larnaca (LCA) and Paphos (PFO) airports, island-wide.
-- Fleet (owner confirmed): minibuses for **8, 13, 17, 21 and 30 passengers**. Several vehicles are combined, so **any group size**. **No coaches.**
+- Fleet (owner confirmed): minibuses for **8, 13, 17, 21 and 30 passengers**, plus **55-seater buses** (added 22 Nov 2026). Several vehicles are combined, so **any group size**.
 - Owner decisions: **no prices on the site.** Don't state a maximum group size.
 
 ## What was done (all live on the site)

@@ -298,7 +298,7 @@ inner("/larnaca-airport-transfers/",
 <li>Professional, licensed and insured drivers who speak English and Greek</li>
 </ul>
 <h2>Vehicles for every group size</h2>
-<p>Couples and families travel in a spacious private minibus; our fleet has minibuses with 8, 13, 17, 21 and 30 passengers, all with room for luggage. For bigger groups, weddings, conferences and sports teams we send several vehicles together – there is no limit on group size – see <a href="/group-bus-hire-cyprus/">group transfers and bus hire</a>.</p>
+<p>Couples and families travel in a spacious private minibus; our fleet has minibuses with 8, 13, 17, 21 and 30 passengers, plus 55-seater buses, all with room for luggage. For bigger groups, weddings, conferences and sports teams we send several vehicles together – there is no limit on group size – see <a href="/group-bus-hire-cyprus/">group transfers and bus hire</a>.</p>
 <h2>How to book your Larnaca Airport transfer</h2>
 <p>Send your flight number, arrival time, number of passengers and destination using the form below or directly on <a href="{WA}" target="_blank" rel="noopener">WhatsApp ({PHONE_H})</a>. We reply with a fixed price, usually within minutes, and confirm your driver's details before you fly.</p>''',
  STD_FACTS,
@@ -331,7 +331,7 @@ inner("/paphos-airport-transfers/",
 <li>Licensed, insured, English and Greek speaking drivers</li>
 </ul>
 <h2>Villa holidays, weddings and golf groups</h2>
-<p>The Paphos area is popular for villa holidays, destination weddings and golf breaks. Our minibuses have 8, 13, 17, 21 and 30 passengers, and for larger parties we send as many vehicles as you need. See <a href="/group-bus-hire-cyprus/">group transfers and bus hire</a>, or plan a day out with a <a href="/private-tours-cyprus/">private minibus tour</a> to Akamas, the Troodos mountains or local wineries.</p>
+<p>The Paphos area is popular for villa holidays, destination weddings and golf breaks. We have minibuses for 8, 13, 17, 21 and 30 passengers, plus 55-seater buses, and for larger parties we send as many vehicles as you need. See <a href="/group-bus-hire-cyprus/">group transfers and bus hire</a>, or plan a day out with a <a href="/private-tours-cyprus/">private minibus tour</a> to Akamas, the Troodos mountains or local wineries.</p>
 <h2>How to book</h2>
 <p>Fill in the form below or message us on <a href="{WA}" target="_blank" rel="noopener">WhatsApp ({PHONE_H})</a> with your flight number, arrival time, passengers and destination. We reply with a fixed price and confirm your driver before you fly.</p>''',
  STD_FACTS,
@@ -340,7 +340,7 @@ inner("/paphos-airport-transfers/",
   ("How long is the transfer from Paphos Airport to Limassol?", "About 45–55 minutes for roughly 60 km via the A6 motorway."),
   ("Is there a charge if my flight is delayed?", "No. We track your flight and the driver waits for your actual arrival time at no extra cost."),
   ("Can you transfer us from Paphos Airport to Ayia Napa or Protaras?", "Yes. The journey is about 2 h 10 – 2 h 20 for roughly 190 km. We can add a comfort stop on the way."),
-  ("Do you have vehicles for large groups from Paphos Airport?", "Yes. We transport groups of any size – minibuses for 8 to 30 passengers, and several vehicles together for larger groups such as wedding guests and golf groups.")],
+  ("Do you have vehicles for large groups from Paphos Airport?", "Yes. We transport groups of any size – minibuses and buses for 8 to 55 passengers, and several vehicles together for larger groups such as wedding guests and golf groups.")],
  "Paphos Airport transfers", ["Paphos International Airport", "Paphos", "Coral Bay", "Peyia", "Polis", "Latchi", "Limassol"], None)
 
 inner("/ayia-napa-protaras-transfers/",
@@ -355,7 +355,7 @@ inner("/ayia-napa-protaras-transfers/",
 <h2>Journey times</h2>
 {routes_table([R["lca-napa"], R["lca-protaras"], (LCA, "Paralimni &amp; Kapparis", "≈ 55 km", "45–50 min"), R["pfo-napa"]], "Transfer times to Ayia Napa and Protaras")}
 <h2>Perfect for groups</h2>
-<p>Ayia Napa is one of the most popular destinations in Cyprus for groups of friends, stag and hen parties and big family holidays. Instead of splitting into several taxis, your whole group travels together in one private minibus with all the luggage – we have minibuses for 8, 13, 17, 21 and 30 passengers. For larger parties and wedding guests we send several vehicles together.</p>
+<p>Ayia Napa is one of the most popular destinations in Cyprus for groups of friends, stag and hen parties and big family holidays. Instead of splitting into several taxis, your whole group travels together in one private minibus with all the luggage – we have minibuses for 8, 13, 17, 21 and 30 passengers, plus 55-seater buses. For larger parties and wedding guests we send several vehicles together.</p>
 <h2>Beyond the airport run</h2>
 <ul>
 <li>Nights out and returns between Ayia Napa, Protaras and Larnaca</li>
@@ -367,7 +367,7 @@ inner("/ayia-napa-protaras-transfers/",
  [("How long is the transfer from Larnaca Airport to Ayia Napa?", "About 40–45 minutes for roughly 48 km via the A3 motorway."),
   ("How long is the transfer from Larnaca Airport to Protaras?", "About 45–55 minutes for roughly 58 km, depending on traffic and your hotel's exact location."),
   ("Which airport is closest to Ayia Napa?", "Larnaca International Airport (LCA) is closest – about 48 km. Paphos Airport is around 190 km away."),
-  ("Can a group of 10 travel together to Ayia Napa?", "Yes. Our minibuses have 8, 13, 17, 21 and 30 passengers, so the whole group arrives together with all the luggage."),
+  ("Can a group of 10 travel together to Ayia Napa?", "Yes. We have minibuses for 8, 13, 17, 21 and 30 passengers, plus 55-seater buses, so the whole group arrives together with all the luggage."),
   ("Do you offer return transfers from Ayia Napa to Larnaca Airport?", "Yes. We schedule the pickup from your hotel based on your flight time, 24 hours a day.")],
  "Ayia Napa and Protaras transfers", ["Ayia Napa", "Protaras", "Paralimni", "Cape Greco", "Larnaca International Airport"], None)
 
@@ -385,7 +385,7 @@ inner("/limassol-transfers/",
 <ul>
 <li><strong>Corporate travel</strong> – punctual, discreet transfers for executives and teams, with flexible waiting time</li>
 <li><strong>Cruise passengers</strong> – transfers between Limassol port, the airports and hotels</li>
-<li><strong>Conferences and events</strong> – shuttles for delegates with minibuses for 8 to 30 passengers</li>
+<li><strong>Conferences and events</strong> – shuttles for delegates with minibuses and buses for 8 to 55 passengers</li>
 <li><strong>Hotel and Airbnb guests</strong> – door-to-door transfers to any address in Limassol</li>
 </ul>
 <p>Need a full day? Combine your transfer with a <a href="/private-tours-cyprus/">private tour</a> to the Troodos mountains, Kourion or local wineries.</p>''',
@@ -434,12 +434,12 @@ inner("/private-tours-cyprus/",
 
 inner("/group-bus-hire-cyprus/",
  "Group Transfers &amp; Bus Hire with Driver in Cyprus | Volan",
- "Minibus hire with driver in Cyprus – 8 to 30 passengers, any group size: weddings, conferences, sports teams and events. Group airport transfers 24/7.",
+ "Minibus and bus hire with driver in Cyprus – 8 to 55 passengers, any group size: weddings, conferences, sports teams and events. Group airport transfers 24/7.",
  "Group Transfers &amp; Bus Hire in Cyprus",
- "Minibuses with 8, 13, 17, 21 and 30 passengers, and several vehicles together for any number of passengers – always with professional drivers. Ideal for weddings, events, conferences, sports teams and large families.",
+ "Minibuses with 8, 13, 17, 21 and 30 passengers, plus 55-seater buses, and several vehicles together for any number of passengers – always with professional drivers. Ideal for weddings, events, conferences, sports teams and large families.",
  "Group transfers &amp; bus hire",
  '''<h2>Transport for any group size</h2>
-<p>Moving a group around Cyprus is much simpler with one vehicle and one driver than with a convoy of taxis. Volan Premium Transfers moves groups of any size: private minibuses with 8, 13, 17, 21 and 30 passengers, and several vehicles together for the biggest groups – from a single airport run to multi-day event transport.</p>
+<p>Moving a group around Cyprus is much simpler with one vehicle and one driver than with a convoy of taxis. Volan Premium Transfers moves groups of any size: private minibuses with 8, 13, 17, 21 and 30 passengers, plus 55-seater buses, and several vehicles together for the biggest groups – from a single airport run to multi-day event transport.</p>
 <h2>What we transport</h2>
 <ul>
 <li><strong>Weddings</strong> – guest shuttles between hotels, the ceremony and the reception venue</li>
@@ -459,10 +459,10 @@ inner("/group-bus-hire-cyprus/",
 </ul>
 <h2>Get a group quote</h2>
 <p>Send the number of passengers, dates, pickup and drop-off points and a rough schedule. For multi-day events, a list of transfers is perfect – we'll return one fixed price for everything.</p>''',
- [("Group size", "Any number of passengers"), ("Minibuses", "8 · 13 · 17 · 21 · 30 passengers"), ("Availability", "24/7"), ("Coverage", "All of Cyprus"), ("Quotes", "Fixed, in advance"), ("Booking", "WhatsApp, phone or email")],
- [("What is the largest group you can transport?", "There is no limit. Our largest minibus takes 30 passengers, and we combine several vehicles so any number of people can travel together."),
+ [("Group size", "Any number of passengers"), ("Vehicles", "8 · 13 · 17 · 21 · 30 · 55 seats"), ("Availability", "24/7"), ("Coverage", "All of Cyprus"), ("Quotes", "Fixed, in advance"), ("Booking", "WhatsApp, phone or email")],
+ [("What is the largest group you can transport?", "There is no limit. Our largest bus takes 55 passengers, and we combine several vehicles so any number of people can travel together."),
   ("Can you provide wedding guest shuttles in Cyprus?", "Yes. We run shuttles between hotels, ceremony and reception venues, including late-night returns."),
-  ("Do you provide airport transfers for groups?", "Yes. We collect groups from Larnaca and Paphos airports with minibuses for 8 to 30 passengers – and several vehicles for bigger groups – with room for luggage."),
+  ("Do you provide airport transfers for groups?", "Yes. We collect groups from Larnaca and Paphos airports with minibuses and buses for 8 to 55 passengers – and several vehicles for bigger groups – with room for luggage."),
   ("How far in advance should we book group transport?", "As early as possible, especially for the larger minibuses in the summer season and for weddings. Short-notice requests are welcome – message us and we'll check availability.")],
  "Group transfers and bus hire in Cyprus", ["Cyprus", "Larnaca", "Paphos", "Limassol", "Nicosia", "Ayia Napa", "Protaras"], None)
 
@@ -471,7 +471,7 @@ HOME_FAQ = [
  ("How much is a private transfer from Larnaca Airport to Ayia Napa?", "The price depends on the number of passengers, luggage and time of day. Send your details on WhatsApp (+357 99 335570) and we confirm a fixed price within minutes – no meter and no hidden fees."),
  ("How long does it take from Larnaca Airport to Ayia Napa, Protaras or Limassol?", "Approximately 40–45 minutes to Ayia Napa, 45–55 minutes to Protaras and 50–60 minutes to Limassol, depending on traffic. See the <a href=\"#routes\">routes table</a> for more journey times."),
  ("Do you provide child seats?", "Yes. Baby seats, child seats and boosters are available free of charge on request for airport transfers and tours."),
- ("How big are your vehicles?", "Our minibuses have 8, 13, 17, 21 and 30 passengers, all with room for luggage. For larger groups we send several vehicles together, so we can transport any number of people."),
+ ("How big are your vehicles?", "We have minibuses for 8, 13, 17, 21 and 30 passengers, plus 55-seater buses, all with room for luggage. For larger groups we send several vehicles together, so we can transport any number of people."),
  ("Do you operate 24/7?", "Yes. We run airport transfers, hotel pickups and private hire 24 hours a day, 7 days a week, including early-morning and late-night flights."),
  ("What happens if my flight is delayed?", "We track your flight and your driver adjusts to the real landing time, at no extra cost."),
  ("Where will the driver meet me?", "Inside the arrivals hall at Larnaca or Paphos airport, holding a sign with your name. You receive the driver's contact details on WhatsApp before you land."),
@@ -487,7 +487,7 @@ def home():
      ("sun", "Ayia Napa &amp; Protaras", "Our most popular routes. One minibus for the whole group – families, friends and weddings.", "/ayia-napa-protaras-transfers/"),
      ("brief", "Limassol &amp; corporate", "Punctual, discreet transfers for business travellers, cruise passengers and conferences.", "/limassol-transfers/"),
      ("wine", "Private tours", "Troodos villages, wineries, Lefkara, Kourion, Cape Greco and Akamas – at your own pace.", "/private-tours-cyprus/"),
-     ("bus", "Groups &amp; bus hire", "Minibuses for 8 to 30 passengers, and several vehicles together for any group size – weddings, teams and events.", "/group-bus-hire-cyprus/"),
+     ("bus", "Groups &amp; bus hire", "Minibuses and buses for 8 to 55 passengers, and several vehicles together for any group size – weddings, teams and events.", "/group-bus-hire-cyprus/"),
     ]
     cards = "".join(f'<a class="card" href="{u}"><span class="ico">{ic(i)}</span><h3>{t}</h3><p>{d}</p><span class="more">Learn more {ic("arrow")}</span></a>' for i, t, d, u in svc)
     rows = [R[k] for k in ["lca-larnaca","lca-napa","lca-protaras","lca-nicosia","lca-limassol","lca-paphos","pfo-paphos","pfo-coral","pfo-limassol"]]
@@ -552,7 +552,7 @@ def home():
 </div></section>
 
 <section id="fleet" class="section section-alt"><div class="wrap">
- <div class="section-head center"><span class="eyebrow">Our vehicles</span><h2>Minibuses for 8 to 30 passengers</h2>
+ <div class="section-head center"><span class="eyebrow">Our vehicles</span><h2>Minibuses and buses for 8 to 55 passengers</h2>
  <p class="lead">Every group gets the right size of vehicle – air-conditioned, with room for luggage and a professional driver. For bigger groups we send several vehicles together, so there is no limit on group size.</p></div>
  <ul class="seats">
   <li><b>8</b><span><strong>Up to 8 passengers</strong>Couples, families and small groups</span></li>
@@ -560,6 +560,7 @@ def home():
   <li><b>17</b><span><strong>Up to 17 passengers</strong>Teams, golf groups and parties</span></li>
   <li><b>21</b><span><strong>Up to 21 passengers</strong>Weddings, events and corporate groups</span></li>
   <li><b>30</b><span><strong>Up to 30 passengers</strong>Large groups, tours and conferences</span></li>
+  <li><b>55</b><span><strong>Up to 55 passengers</strong>55-seater bus for big groups and events</span></li>
  </ul>
  <p class="note center">Free child seats on request. Bigger group? We combine vehicles so everyone travels together.</p>
 </div></section>
